@@ -1,0 +1,49 @@
+[window]
+dynamic_padding = false
+startup_mode = "Windowed"
+opacity = 0.8
+  [window.dimensions]
+  lines = 35
+  columns = 120
+
+
+[font]
+size = 8
+builtin_box_drawing = true
+
+  [font.normal]
+  family = "monospace"
+  style = "Regular"
+  [font.bold]
+  family = "monospace"
+  style = "Bold"
+
+[colors.primary]
+background = "#1E201E"
+foreground = "#DDDDDD"
+
+[colors.normal]
+black = "#4C4C4C"
+red = "#FF3C3C"
+green = "#0DBC79"
+yellow = "#E5E510"
+blue = "#3B8EEA"
+magenta = "#BC3FBC"
+cyan = "#11A8CD"
+white = "#E5E5E5"
+
+[colors.bright]
+black = "#666666"
+red = "#F14C4C"
+green = "#23D18B"
+yellow = "#F5F543"
+blue = "#3B8EEA"
+magenta = "#D670D6"
+cyan = "#29B8DB"
+white = "#E5E5E5"
+
+[mouse]
+hide_when_typing = true
+
+[shell]
+  program = "zsh"
